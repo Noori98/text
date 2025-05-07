@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b159d4bb6a.js" crossorigin="anonymous"></script>
+    <title>login</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container Registrieren">
+            <form>
+
+                <h1>Konto erstellen</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+                <span>Gib deine Email ein, um dich einzuregistrieren</span>
+
+                <input type="text" placeholder="Name">
+                <input type="Email" placeholder="Email">
+                <input type="Passwort" placeholder="Passwort">
+                <button>Registrieren</button>
+
+            </form>
+
+        </div>
+
+
+
+
+        <div class="form-container anmelden">
+            <form>
+                <h1>Melde dich an</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>gib deine Anmeldedaten ein</span>
+                <input type="Email" placeholder="Email">
+                <input type="Passwort" placeholder="Passwort">
+                <a href="#">Passwort vergessen?</a>
+                <button>Anmelden</button>
+                
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel
+            toggle-left">
+            <h1>Willkommen zurück</h1>
+            <p>Gib deine Anmelde-Daten ein, um alle Features zu benutzen</p>
+            <button class="hidden" id="Anmelden">Anmelden</button>    
+            </div>
+            <div class="toggle-panel
+            toggle-right">
+            <h1>Hallo!</h1>
+            <p>Registriere dich ein, um alle Features zu benutzen</p>
+            <button class="hidden" id="Einregistrieren">Einregistrieren</button>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
